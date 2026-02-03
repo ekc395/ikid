@@ -9,6 +9,6 @@ import SwiftUI
 
 struct GoodView: View {
     var body: some View {
-        Text("Roses are dead, violets are dead...")
+        Text("There are 10 kinds of people in this world...")
     }
 }

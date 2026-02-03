@@ -9,6 +9,6 @@ import SwiftUI
 
 struct DadView: View {
     var body: some View {
-        Text("What kind of apples grow on trees?")
+        Text("Why did the toilet paper not cross the road?")
     }
 }
