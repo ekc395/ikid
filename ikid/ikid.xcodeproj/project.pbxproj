@@ -7,19 +7,32 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		42F54BC82F32855300621981 /* ikid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ikid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F7B9F42F3433CB000B45F1 /* ikid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ikid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		42F7BA062F3433CC000B45F1 /* Exceptions for "ikid" folder in "ikid" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 42F7B9F32F3433CB000B45F1 /* ikid */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		42F54BCA2F32855300621981 /* ikid */ = {
+		42F7B9F62F3433CB000B45F1 /* ikid */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				42F7BA062F3433CC000B45F1 /* Exceptions for "ikid" folder in "ikid" target */,
+			);
 			path = ikid;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		42F54BC52F32855300621981 /* Frameworks */ = {
+		42F7B9F12F3433CB000B45F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		42F54BBF2F32855300621981 = {
+		42F7B9EB2F3433CB000B45F1 = {
 			isa = PBXGroup;
 			children = (
-				42F54BCA2F32855300621981 /* ikid */,
-				42F54BC92F32855300621981 /* Products */,
+				42F7B9F62F3433CB000B45F1 /* ikid */,
+				42F7B9F52F3433CB000B45F1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		42F54BC92F32855300621981 /* Products */ = {
+		42F7B9F52F3433CB000B45F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				42F54BC82F32855300621981 /* ikid.app */,
+				42F7B9F42F3433CB000B45F1 /* ikid.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		42F54BC72F32855300621981 /* ikid */ = {
+		42F7B9F32F3433CB000B45F1 /* ikid */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42F54BD32F32855400621981 /* Build configuration list for PBXNativeTarget "ikid" */;
+			buildConfigurationList = 42F7BA072F3433CC000B45F1 /* Build configuration list for PBXNativeTarget "ikid" */;
 			buildPhases = (
-				42F54BC42F32855300621981 /* Sources */,
-				42F54BC52F32855300621981 /* Frameworks */,
-				42F54BC62F32855300621981 /* Resources */,
+				42F7B9F02F3433CB000B45F1 /* Sources */,
+				42F7B9F12F3433CB000B45F1 /* Frameworks */,
+				42F7B9F22F3433CB000B45F1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				42F54BCA2F32855300621981 /* ikid */,
+				42F7B9F62F3433CB000B45F1 /* ikid */,
 			);
 			name = ikid;
 			packageProductDependencies = (
 			);
 			productName = ikid;
-			productReference = 42F54BC82F32855300621981 /* ikid.app */;
+			productReference = 42F7B9F42F3433CB000B45F1 /* ikid.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		42F54BC02F32855300621981 /* Project object */ = {
+		42F7B9EC2F3433CB000B45F1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
-					42F54BC72F32855300621981 = {
+					42F7B9F32F3433CB000B45F1 = {
 						CreatedOnToolsVersion = 26.2;
 					};
 				};
 			};
-			buildConfigurationList = 42F54BC32F32855300621981 /* Build configuration list for PBXProject "ikid" */;
+			buildConfigurationList = 42F7B9EF2F3433CB000B45F1 /* Build configuration list for PBXProject "ikid" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 42F54BBF2F32855300621981;
+			mainGroup = 42F7B9EB2F3433CB000B45F1;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 42F54BC92F32855300621981 /* Products */;
+			productRefGroup = 42F7B9F52F3433CB000B45F1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				42F54BC72F32855300621981 /* ikid */,
+				42F7B9F32F3433CB000B45F1 /* ikid */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		42F54BC62F32855300621981 /* Resources */ = {
+		42F7B9F22F3433CB000B45F1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		42F54BC42F32855300621981 /* Sources */ = {
+		42F7B9F02F3433CB000B45F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +138,71 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		42F54BD12F32855400621981 /* Debug */ = {
+		42F7BA082F3433CC000B45F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 348AVX9RZX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ikid/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.ekc395.ikid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42F7BA092F3433CC000B45F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 348AVX9RZX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ikid/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.ekc395.ikid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42F7BA0A2F3433CC000B45F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -189,7 +266,7 @@
 			};
 			name = Debug;
 		};
-		42F54BD22F32855400621981 /* Release */ = {
+		42F7BA0B2F3433CC000B45F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -246,92 +323,28 @@
 			};
 			name = Release;
 		};
-		42F54BD42F32855400621981 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 348AVX9RZX;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.ekc395.ikid;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		42F54BD52F32855400621981 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 348AVX9RZX;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.ekc395.ikid;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		42F54BC32F32855300621981 /* Build configuration list for PBXProject "ikid" */ = {
+		42F7B9EF2F3433CB000B45F1 /* Build configuration list for PBXProject "ikid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42F54BD12F32855400621981 /* Debug */,
-				42F54BD22F32855400621981 /* Release */,
+				42F7BA0A2F3433CC000B45F1 /* Debug */,
+				42F7BA0B2F3433CC000B45F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42F54BD32F32855400621981 /* Build configuration list for PBXNativeTarget "ikid" */ = {
+		42F7BA072F3433CC000B45F1 /* Build configuration list for PBXNativeTarget "ikid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42F54BD42F32855400621981 /* Debug */,
-				42F54BD52F32855400621981 /* Release */,
+				42F7BA082F3433CC000B45F1 /* Debug */,
+				42F7BA092F3433CC000B45F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 42F54BC02F32855300621981 /* Project object */;
+	rootObject = 42F7B9EC2F3433CB000B45F1 /* Project object */;
 }
