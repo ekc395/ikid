@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why did toilet paper not cross the road?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ah-mZ-VF0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why did the toilet paper not cross the road?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ah-mZ-VF0">
                                 <rect key="frame" x="20" y="415.66666666666669" width="353" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -27,17 +27,36 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Next"/>
+                                <connections>
+                                    <action selector="nextButtonTapped:" destination="3oA-iA-HXj" eventType="touchUpInside" id="Q1z-LJ-Kdy"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Because it got stuck in the crack!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJD-uj-pPH">
+                                <rect key="frame" x="20" y="415.66666666666669" width="353" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4L7-Vc-D2L"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="4L7-Vc-D2L" firstAttribute="trailing" secondItem="VJD-uj-pPH" secondAttribute="trailing" constant="20" id="0IF-ak-Igw"/>
+                            <constraint firstItem="VJD-uj-pPH" firstAttribute="centerY" secondItem="X7d-5K-qMT" secondAttribute="centerY" id="4En-aU-iVu"/>
+                            <constraint firstItem="3ah-mZ-VF0" firstAttribute="centerY" secondItem="X7d-5K-qMT" secondAttribute="centerY" id="7Q5-le-6KU"/>
+                            <constraint firstItem="3ah-mZ-VF0" firstAttribute="centerY" secondItem="X7d-5K-qMT" secondAttribute="centerY" id="LbE-z7-9Vn"/>
+                            <constraint firstItem="VJD-uj-pPH" firstAttribute="leading" secondItem="4L7-Vc-D2L" secondAttribute="leading" constant="20" id="Txi-5g-KoZ"/>
                             <constraint firstItem="4L7-Vc-D2L" firstAttribute="trailing" secondItem="3ah-mZ-VF0" secondAttribute="trailing" constant="20" id="X3a-BT-HPD"/>
+                            <constraint firstItem="VJD-uj-pPH" firstAttribute="centerY" secondItem="X7d-5K-qMT" secondAttribute="centerY" id="Yg9-aD-8Jh"/>
                             <constraint firstItem="3ah-mZ-VF0" firstAttribute="leading" secondItem="4L7-Vc-D2L" secondAttribute="leading" constant="20" id="ox6-PA-MBv"/>
                             <constraint firstItem="3ah-mZ-VF0" firstAttribute="centerY" secondItem="X7d-5K-qMT" secondAttribute="centerY" id="sST-QT-6sa"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Dad Joke" id="t3a-Kf-z3S"/>
+                    <connections>
+                        <outlet property="jokeLabel" destination="3ah-mZ-VF0" id="MW4-F7-4CO"/>
+                        <outlet property="punchlineLabel" destination="VJD-uj-pPH" id="jaV-08-4I9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dEt-Ph-uhQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
