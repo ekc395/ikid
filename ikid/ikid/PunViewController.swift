@@ -9,21 +9,21 @@ import UIKit
 
 class PunViewController: UIViewController {
 
+    @IBOutlet weak var jokeLabel: UILabel!
+    @IBOutlet weak var punchlineImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view
+        
+        // Start with joke visible, punchline image hidden
+        jokeLabel.isHidden = false
+        punchlineImageView.isHidden = true
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func nextButtonTapped(_ sender: Any) {
+        // Toggle between joke and punchline image
+        jokeLabel.isHidden.toggle()
+        punchlineImageView.isHidden.toggle()
     }
-    */
 
 }

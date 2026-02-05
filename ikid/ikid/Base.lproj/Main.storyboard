@@ -81,17 +81,32 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Next"/>
+                                <connections>
+                                    <action selector="nextButtonTapped:" destination="Ott-vK-tw1" eventType="touchUpInside" id="3oV-pZ-bZx"/>
+                                </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sink" translatesAutoresizingMaskIntoConstraints="NO" id="aWs-7Q-MPF">
+                                <rect key="frame" x="20" y="66" width="353" height="720"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bh3-vp-RAI"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="aWs-7Q-MPF" firstAttribute="leading" secondItem="bh3-vp-RAI" secondAttribute="leading" constant="20" id="22H-hu-oJy"/>
+                            <constraint firstItem="aWs-7Q-MPF" firstAttribute="centerY" secondItem="Ulj-ZH-EBH" secondAttribute="centerY" id="9Ke-cf-5oH"/>
+                            <constraint firstAttribute="trailing" secondItem="aWs-7Q-MPF" secondAttribute="trailing" constant="20" id="GZy-AQ-w7Y"/>
                             <constraint firstItem="TDt-az-kWR" firstAttribute="centerY" secondItem="Ulj-ZH-EBH" secondAttribute="centerY" id="Tgr-xo-eqO"/>
+                            <constraint firstItem="TDt-az-kWR" firstAttribute="centerY" secondItem="Ulj-ZH-EBH" secondAttribute="centerY" id="ZRx-6P-egr"/>
                             <constraint firstItem="bh3-vp-RAI" firstAttribute="trailing" secondItem="TDt-az-kWR" secondAttribute="trailing" constant="20" id="liA-GW-xBe"/>
                             <constraint firstItem="TDt-az-kWR" firstAttribute="leading" secondItem="bh3-vp-RAI" secondAttribute="leading" constant="20" id="nTU-Mw-0Hl"/>
+                            <constraint firstItem="aWs-7Q-MPF" firstAttribute="centerY" secondItem="Ulj-ZH-EBH" secondAttribute="centerY" id="xo4-20-k1O"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Pun" id="2Io-qh-pbL"/>
+                    <connections>
+                        <outlet property="jokeLabel" destination="TDt-az-kWR" id="qlR-vI-K8u"/>
+                        <outlet property="punchlineImageView" destination="aWs-7Q-MPF" id="g1r-88-Z6G"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="baM-Tt-wg4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -171,6 +186,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="sink" width="1280" height="720"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
