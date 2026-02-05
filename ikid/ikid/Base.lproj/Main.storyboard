@@ -11,46 +11,66 @@
         <!--Dad Joke-->
         <scene sceneID="Lcf-iT-g4v">
             <objects>
-                <viewController id="3oA-iA-HXj" sceneMemberID="viewController">
+                <viewController id="3oA-iA-HXj" customClass="DadJokeViewController" customModule="ikid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="X7d-5K-qMT">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Why did toilet paper not cross the road?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ah-mZ-VF0">
-                                <rect key="frame" x="44" y="416" width="304" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why did toilet paper not cross the road?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ah-mZ-VF0">
+                                <rect key="frame" x="20" y="415.66666666666669" width="353" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lju-vo-e4d">
+                                <rect key="frame" x="310" y="700" width="60" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Next"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4L7-Vc-D2L"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4L7-Vc-D2L" firstAttribute="trailing" secondItem="3ah-mZ-VF0" secondAttribute="trailing" constant="20" id="X3a-BT-HPD"/>
+                            <constraint firstItem="3ah-mZ-VF0" firstAttribute="leading" secondItem="4L7-Vc-D2L" secondAttribute="leading" constant="20" id="ox6-PA-MBv"/>
+                            <constraint firstItem="3ah-mZ-VF0" firstAttribute="centerY" secondItem="X7d-5K-qMT" secondAttribute="centerY" id="sST-QT-6sa"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Dad Joke" id="t3a-Kf-z3S"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dEt-Ph-uhQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="155" y="-156"/>
+            <point key="canvasLocation" x="154.96183206106869" y="-156.33802816901408"/>
         </scene>
         <!--Pun-->
         <scene sceneID="RKL-7t-NzX">
             <objects>
-                <viewController id="Ott-vK-tw1" sceneMemberID="viewController">
+                <viewController id="Ott-vK-tw1" customClass="PunViewController" customModule="ikid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ulj-ZH-EBH">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Did you know that Lightning McQueen's first name is Montgomery?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TDt-az-kWR">
-                                <rect key="frame" x="16" y="392" width="361" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you know that Lightning McQueen's first name is Montgomery?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TDt-az-kWR">
+                                <rect key="frame" x="20" y="405.66666666666669" width="353" height="40.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hbg-CJ-JWI">
+                                <rect key="frame" x="310" y="700" width="60" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Next"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bh3-vp-RAI"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TDt-az-kWR" firstAttribute="centerY" secondItem="Ulj-ZH-EBH" secondAttribute="centerY" id="Tgr-xo-eqO"/>
+                            <constraint firstItem="bh3-vp-RAI" firstAttribute="trailing" secondItem="TDt-az-kWR" secondAttribute="trailing" constant="20" id="liA-GW-xBe"/>
+                            <constraint firstItem="TDt-az-kWR" firstAttribute="leading" secondItem="bh3-vp-RAI" secondAttribute="leading" constant="20" id="nTU-Mw-0Hl"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Pun" id="2Io-qh-pbL"/>
                 </viewController>
@@ -61,14 +81,28 @@
         <!--Good Joke-->
         <scene sceneID="jbb-xm-DUs">
             <objects>
-                <viewController id="Bsm-Wy-c6a" sceneMemberID="viewController">
+                <viewController id="Bsm-Wy-c6a" customClass="GoodJokeViewController" customModule="ikid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0dN-zx-h78">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="There are 10 kinds of people in this world..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdV-YJ-IFZ">
-                                <rect key="frame" x="33" y="416" width="326" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There are 10 kinds of people in this world..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdV-YJ-IFZ">
+                                <rect key="frame" x="20" y="415.66666666666669" width="353" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qGI-m4-HTv">
+                                <rect key="frame" x="310" y="700" width="60" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Next"/>
+                                <connections>
+                                    <action selector="nextButtonTapped:" destination="Bsm-Wy-c6a" eventType="touchUpInside" id="Zcj-An-wLa"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Those who understand binary and those who don't" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W6E-Eg-2UZ">
+                                <rect key="frame" x="20" y="405.66666666666669" width="353" height="40.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -76,12 +110,26 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xy6-HN-1iE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cdV-YJ-IFZ" firstAttribute="leading" secondItem="xy6-HN-1iE" secondAttribute="leading" constant="20" id="GkO-i1-3Yn"/>
+                            <constraint firstItem="W6E-Eg-2UZ" firstAttribute="leading" secondItem="xy6-HN-1iE" secondAttribute="leading" constant="20" id="Nz0-l5-Mt6"/>
+                            <constraint firstItem="xy6-HN-1iE" firstAttribute="trailing" secondItem="W6E-Eg-2UZ" secondAttribute="trailing" constant="20" id="Y7u-Yz-U65"/>
+                            <constraint firstItem="xy6-HN-1iE" firstAttribute="trailing" secondItem="cdV-YJ-IFZ" secondAttribute="trailing" constant="20" id="ba2-D9-OiI"/>
+                            <constraint firstItem="xy6-HN-1iE" firstAttribute="trailing" secondItem="cdV-YJ-IFZ" secondAttribute="trailing" constant="20" id="kNn-u4-Q9n"/>
+                            <constraint firstItem="W6E-Eg-2UZ" firstAttribute="centerY" secondItem="0dN-zx-h78" secondAttribute="centerY" id="li8-gu-0D8"/>
+                            <constraint firstItem="cdV-YJ-IFZ" firstAttribute="leading" secondItem="xy6-HN-1iE" secondAttribute="leading" constant="20" id="uQY-wk-8dc"/>
+                            <constraint firstItem="cdV-YJ-IFZ" firstAttribute="centerY" secondItem="0dN-zx-h78" secondAttribute="centerY" id="zD7-lS-6eC"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Good Joke" id="Vse-fU-doX"/>
+                    <connections>
+                        <outlet property="jokeLabel" destination="cdV-YJ-IFZ" id="Yql-fw-sRb"/>
+                        <outlet property="punchlineLabel" destination="W6E-Eg-2UZ" id="KKm-IF-hLB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I7M-LU-zyy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="156" y="-913"/>
+            <point key="canvasLocation" x="154.96183206106869" y="-913.38028169014092"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="nq4-Ua-pNO">

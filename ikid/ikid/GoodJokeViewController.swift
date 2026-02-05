@@ -9,21 +9,21 @@ import UIKit
 
 class GoodJokeViewController: UIViewController {
 
+    @IBOutlet weak var jokeLabel: UILabel!
+    @IBOutlet weak var punchlineLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        // Start with joke visible, punchline hidden
+        jokeLabel.isHidden = false
+        punchlineLabel.isHidden = true
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func nextButtonTapped(_ sender: Any) {
+        // Toggle between joke and punchline
+        jokeLabel.isHidden.toggle()
+        punchlineLabel.isHidden.toggle()
     }
-    */
 
 }
